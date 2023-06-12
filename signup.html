@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="anas abdullah al-dharei">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="cssfile.css">
+<script src="jsfile.js"></script>
+<title>sign up</title>
+
+</head>
+<body class="signup_body">
+<section>
+    <nav class="navbar">
+        <div class="logo"><a href="#"><h2 style="color:white;"><span style="color: rgb(81, 255, 226);">Banzema</span> University </h2></a></div>
+        <ul>
+            <a href="home.html"><li>Home</li></a>
+            <a href="#" onclick="alertfun()"><li>News</li></a>
+            <a href="#" onclick="alertfun()"><li>About</li></a>
+            <a href="#"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+         
+        </div>
+          <div class="col-md-10 mx-auto col-lg-5" style="margin-top: -80px;" >
+            <form class="p-4 p-md-5 border rounded-3 bg-light" style="text-align: center;" action="#" method="POST">
+              <h2><span style="color: #51ffe2;">Banzema</span> University</span></h2>
+                <div class="form-floating mb-3">
+                    <input type="text" name="username" class="form-control" id="floatingusername" placeholder="username" required>
+                    <label for="floatingUsername" >Username</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" name="phone" class="form-control" id="floatingNumber" placeholder="phone_namber" required>
+                    <label for="floatingNumber">Phone number</label>
+                  </div>
+              <div class="form-floating mb-3">
+                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me" required> I agree.
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #51ffe2; border-color: #51ffe2;">Sign up</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+              
+          <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+          <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
+            <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+            Sign up with Twitter
+          </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+            <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+            Sign up with Facebook
+          </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+            <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+            Sign up with GitHub
+          </button>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+</body>
+</html>
